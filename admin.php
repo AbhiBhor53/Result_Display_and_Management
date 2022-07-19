@@ -301,7 +301,7 @@ if($conn->query($update)===TRUE){
     <?php
 }
 else{
-    echo"galat";
+    echo"error";
 }
 
 }
