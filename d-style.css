@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 30px;
+    text-align: center;
+    background-color:  #26688a;
+}
+   
+header .logo{
+    
+}
+header h1{
+    padding-top: 10px; ;
+    color: white;
+}
+span{
+    font-size: 35px;
+}
+header i{
+    font-size: 35px;
+    color: white;
+    padding-top: 10px; ;
+}
+.content{
+    display: flex;
+   
+}
+.menu{
+   
+    width: 285px;
+    height: 900px;
+    background-color:#26688a;
+    text-align: left;
+    list-style: none;
+    
+    
+}
+.menu li {
+    color: orangered;
+    
+   
+
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    border: 1px solid white;
+    padding: 10px 10px;
+   
+}
+#ud{
+    border: none;
+}
+.menu li a:hover{
+    color:rgb(3, 25, 46);
+    background-color: white;
+}
+.menu li a :visited{
+    color:rgb(3, 25, 46);
+    background-color: white;
+}
+li a i{
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.data{
+
+    width: 90%;
+    background-color: white;
+}
