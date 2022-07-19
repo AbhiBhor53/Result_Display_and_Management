@@ -118,11 +118,14 @@ echo $pass;
 echo $name;
 $sql="insert into records(username,password,name,email,phone,exam,addr) values('$user','$pass','$name','$email','$phone','$exam','$addr')";
 if($conn->query($sql)===TRUE){
-    echo "Registered Successfully!";
-
+  ?>
+    <script>alert( "Registered Successfully!");</script>
+<?php
 }
 else{
-    echo"chuktay";
+   ?>
+    <script>alert( "error in registration!");</script>
+<?php
 }
 }
 ?>
